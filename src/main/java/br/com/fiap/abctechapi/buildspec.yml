@@ -2,7 +2,7 @@ version: 0.2
 phases:
   pre_build:
     commands:
-      - echo "Pré build pahase"
+      - echo "Pré build phase"
   build:
     commands:
       - echo "Building"
@@ -10,7 +10,7 @@ phases:
   post_build:
     commands:
       - echo "movendo os arquivos"
-      - mv target/*.war ./ROOT;war
+      - mv target/*.war ./ROOT.war
 artifacts:
   files:
     - ROOT.war
